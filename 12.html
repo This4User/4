@@ -6,11 +6,14 @@
 </head>
 <body>
 <script>
-    let array = ['a','b','c','a','a','a','d'];
-    c=0;
+    let a = prompt('Введите строку',defaultStatus);
+    let letter = '';
+    let find = 'a';
+    let array = a.split(letter);
     let i = 0;
+    let c = 0;
     while (i<array.length){
-        if (array[i] === 'a'){
+        if(array[i] === find){
             c++;
         }
         i++;
